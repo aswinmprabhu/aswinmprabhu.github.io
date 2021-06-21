@@ -188,8 +188,16 @@ To run the script,
 2. Ensure that python3 and pip3 are installed
 3. Download and place the chromedriver file in the repository folder
 4. Create a config.json file inside the repository folder. A sample file is given below.
+5. Make the necessary edits to config.json. Change the driver location if necessary and edit the user details. You can add more users by appending to the `users` array in the config.
+6. Inside the repository folder, execute the following commands
+
+```bash
+pip install selenium
+python3 ./attendance.py --config ./config.json
+```
 
 ```javascript
+// Sample config.json
 {
 	"driver": "./chromedriver.exe",
 	"interval": 20,
@@ -215,13 +223,7 @@ To run the script,
 	]
 }
 ```
-5. Make the necessary edits to config.json. Change the driver location if necessary and edit the user details. You can add more users by appending to the `users` array in the config.
-6. Inside the repository folder, execute the following commands
 
-```bash
-pip install selenium
-python3 ./attendance.py --config ./config.json
-```
 (Try using pip3 is pip command does not work)
 
 **Happy Hacking !!**
