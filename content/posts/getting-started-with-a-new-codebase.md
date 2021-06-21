@@ -1,5 +1,5 @@
 +++
-title = "Getting Started With A New Codebase"
+title = "Getting Started With a New Codebase"
 date = 2019-08-04T19:54:24+05:30
 featured_image = "/images/codebase.png"
 +++
