@@ -8,6 +8,9 @@ tags:
   - automation
 ---
 
+> TLDR
+> Attendance marking on moodle can be automated using a browser automation tool called Selenium. If you couldn't less about the last part of the previous sentence, or if you just wanna use the damn script to put and end to the pain in the neck that is manual attendance recording on moodle, then you can jump to the last section.
+
 When classes moved online due to the pandemic, we were free to mute the tab and doze off or not attend at all when they turned out to be boring. Although we could get away without attending online sessions, we still had to record our attendance every hour on an online learning management system called [Moodle](https://moodle.org/) to maintain our dreaded minimum attendance requirement. My ever so forgetful and pandemic taxed brain couldn't keep up with this repetitive task during the initial days of online classes. So I decided to do something about it and build an automation tool to take care of this mundane task for me.
 
 ![Moodle](/images/moodle.png)
