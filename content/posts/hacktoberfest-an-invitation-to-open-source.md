@@ -1,10 +1,12 @@
-+++
-title = "Hacktoberfest - An invitation to Open Source"
-date = 2018-10-11T19:54:24+05:30
-draft = false
-featured_image = "/images/hacktoberfest.png"
-tags = ["open-source", "programming"]
-+++
+---
+title: "Hacktoberfest - An invitation to Open Source"
+date: 2018-10-11T19:54:24+05:30
+featured_image: "/images/hacktoberfest.png"
+toc: false
+tags:
+  - opensource
+  - beginner
+---
 
 ![Hacktoberfest](/images/hacktoberfest.png)
 

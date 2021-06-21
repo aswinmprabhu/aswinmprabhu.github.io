@@ -1,8 +1,12 @@
-+++
-title = "Automating Attendance Recording on Moodle Using Selenium"
-date = 2021-06-21T19:54:24+05:30
-featured_image = "/images/moodle.png"
-+++
+---
+title: "Automating Attendance Recording on Moodle Using Selenium"
+date: 2021-06-21T13:09:03+05:30
+featured_image: "/images/moodle.png"
+toc: false
+tags:
+  - python
+  - automation
+---
 
 When classes moved online due to the pandemic, we were free to mute the tab and doze off or not attend at all when they turned out to be boring. Although we could get away without attending online sessions, we still had to record our attendance every hour on an online learning management system called [Moodle](https://moodle.org/) to maintain our dreaded minimum attendance requirement. My ever so forgetful and pandemic taxed brain couldn't keep up with this repetitive task during the initial days of online classes. So I decided to do something about it and build an automation tool to take care of this mundane task for me.
 
@@ -216,4 +220,4 @@ python3 ./attendance.py --config ./config.json
 ```
 (Try using pip3 is pip command does not work)
 
-Happy hacking!!
+**Happy Hacking !!**
