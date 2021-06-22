@@ -32,7 +32,7 @@ Browser drivers for Google Chrome can be found [here](http://chromedriver.chromi
 
 There might be multiple ways for you to achieve the same task using browser automation. Let's try to express the pseudo code for one of the ways in which you can program it to record your attendance on moodle every hour.
 
-```
+```markdown
 Visit the moodle login page (https://moodle.mec.ac.in)
 Fill in the email and password in the respective fields and click the login button
 After every 20 mins:
