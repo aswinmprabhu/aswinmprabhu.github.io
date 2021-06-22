@@ -172,6 +172,7 @@ To run the script,
     * Change the chromedriver file location and name if necessary (OS dependent)
     * Edit the `attendance_page_urls` varible with the URLs to all the attendance pages of your subjects
 5. Inside the repository folder, execute the following commands
+
 ```bash
 pip install selenium
 python3 ./individual.py
