@@ -1,7 +1,7 @@
 ---
 title: "The Forlorn Room"
 date: 2021-08-23T12:31:59+05:30
-draft: true
+draft: false
 toc: false
 featured_image: "/images/lonely-room.jpg"
 tags:
