@@ -9,7 +9,6 @@ tags:
 ---
 
 ![Lonely Room](/images/lonely-room.jpg)
-<img src="/images/lonely-room.jpg" alt="Lonely Room" width="500"/>
 
 
 In that forlorn room I sit,  
