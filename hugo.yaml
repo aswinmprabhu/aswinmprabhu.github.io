@@ -1,0 +1,89 @@
+baseURL: https://aswinmprabhu.github.io/
+languageCode: en-us
+title: "aswinmprabhu"
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts/
+          weight: 5
+        - name: Tags
+          url: tags/
+          weight: 10
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Aswin's Blog"
+  author: Aswin M Prabhu
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Aswin's Blog"
+    Content: >
+      👋 Hi there
+
+      - I am Aswin M Prabhu (@aswinmprabhu), and I work as a Software Enginner, Site Reliability at LinkedIn. I'm passionate about distributed systems, backend engineering, developer tooling and SRE.
+
+  socialIcons:
+    - name: github
+      title: Github
+      url: "https://github.com/aswinmprabhu"
+    - name: linkedin
+      title: LinkedIn
+      url: "https://www.linkedin.com/in/aswinmprabhu/"
+
+  editPost:
+    URL: "https://github.com/aswinmprabhu/blog/tree/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
